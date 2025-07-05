@@ -1,0 +1,123 @@
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(7, 2, 28, 0.813);
+    color: aliceblue;
+    width:160px;
+    text-align: center;
+    padding:20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+button{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    padding:10px;
+    height:75px;
+    width:75px;
+}
+
+.zero{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    gap: 20px;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.numbers button{
+    background-color: rgba(7, 2, 28, 0.813);
+}
+
+.special button{
+    background-color: rgb(230, 210, 30);
+}
+
+.special{
+    gap:30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.operators button{
+    background-color: grey;
+}
+
+.operators{
+    gap:30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.subcon{
+    display:flex;
+    flex:1;
+}
+
+.screen{
+    background-color: grey;
+    height: 100px;
+    width:400px;
+    margin:40px 20px;
+    display: flex;
+    align-self: center;
+    border-radius: 15px;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 1000;
+    gap: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.container{
+    height:600px;
+    width:400px;
+    border-radius: 25px;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding:30px 20px;
+    border:20px solid grey;
+    box-sizing: content-box;
+}
+
+.one{
+    display: flex;
+    gap:5px;
+    flex:1;
+}
+
+.two{
+    display: flex;
+    gap:5px;
+    flex:1;
+}
+
+.three{
+    display: flex;
+    gap:5px;
+    flex:1;
+}

@@ -1,1 +1,1 @@
-# calculator
+Calculator proj of The Odin Project
